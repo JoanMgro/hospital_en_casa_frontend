@@ -1,0 +1,8 @@
+@import "./base.css";
+@import "./botones.css";
+@import "./camposdatos.css";
+@import "./gridareaspaciente.css";
+
+#app {
+    height: 99vh;
+}

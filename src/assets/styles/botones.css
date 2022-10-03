@@ -1,0 +1,46 @@
+.botones_aux_view{
+    background-color: #fff;
+    border: 1px solid #76e3d0;
+    border-radius: 10px;
+    height: 30px;
+
+    font-weight: 700;
+    font-size: 0.8rem;
+
+}
+
+.botones_aux_view:hover{
+    border: 2.5px solid #76e3d0;
+
+}
+
+.active {
+    background-color: #76E3D0;
+}
+
+.button_size_125x32{
+    width: 125px;
+    height: 32px;
+}
+
+button{
+    background-color: #fff;
+    border: 1px solid #76e3d0;
+    border-radius: 10px;
+    height: 30px;
+  
+    font-weight: 700;
+    font-size: 0.8rem;
+  
+    width: 125px;
+    height: 32px;
+  
+  }
+  
+  button:hover{
+    border: 2.5px solid #76e3d0;
+    background-color: #76e3d0;
+    opacity: 0.5;
+
+  
+  }

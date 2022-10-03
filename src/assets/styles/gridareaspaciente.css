@@ -1,0 +1,61 @@
+.grid_resultados {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". . . diagnostico"
+    "nombres documento genero fecha_de_nacimiento"
+    "ciudad direccion latitud longitud"
+    "telefono familiar_designado . .";
+    gap: 10px 10px;
+    justify-items: start;
+    justify-content: space-evenly;
+    align-content: end;
+}
+
+.item_01{
+    grid-area: nombres;
+}
+
+.item_02{
+    grid-area: documento;
+}
+
+.item_03{
+    grid-area: genero;
+}
+
+.item_04{
+    grid-area: fecha_de_nacimiento;
+}
+
+.item_05{
+    grid-area: ciudad;
+}
+
+.item_06{
+    grid-area: direccion;
+}
+
+.item_07{
+    grid-area: latitud;
+}
+
+.item_08{
+    grid-area: longitud;
+}
+
+.item_09{
+    grid-area: telefono;
+}
+
+.item_10{
+    grid-area: familiar_designado;
+}
+
+.item_11{
+    grid-area: diagnostico;
+    width: 250px;
+    align-self: center;
+    line-height: 22px;
+}

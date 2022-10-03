@@ -1,0 +1,36 @@
+.campo_formularios{
+    background-color: #FFFFFF;
+    border: 1px solid #76E3D0;
+    border-radius: 10px;
+    width: 155px;
+    height: 32px;
+}
+
+input{
+    background-color: #FFFFFF;
+    border: 1px solid #76E3D0;
+    border-radius: 10px;
+    width: 155px;
+    height: 32px;
+}
+
+label{
+    display:flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    /* margin: 10px; */
+
+}
+
+.colum-form{
+    display: flex;
+}
+
+select{
+    background-color: #FFFFFF;
+    border: 1px solid #76E3D0;
+    border-radius: 10px;
+    width: 155px;
+    height: 32px;
+}
